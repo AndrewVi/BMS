@@ -1,0 +1,58 @@
+
+.ot-preference-actions-undo {
+  background-color: white !important; 
+  border: 1px solid #A430B5 !important;
+  color: #A430B5 !important;
+  padding: 10px 25px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  font-size: 16px !important;
+}
+.ot-preference-actions-update {
+  background-color:  #A430B5 !important; 
+border: none !important;
+  color: white !important;
+  padding: 10px 25px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  font-size: 16px !important;
+}
+.ot-setting__description {
+display: none;
+}
+.text-small {
+display: none;
+}
+/*.ot-preference-title {
+display: none;
+}*/
+
+/*Toggle*/
+label.ot-toggle input[value="false"] + .ot-toggle-slider:after,
+label.ot-toggle input[value="true"] + .ot-toggle-slider:after {
+    position: absolute;
+    font-size: 11px;
+    top: 4px;
+    font-weight: bold;
+}
+ 
+/*change color of Unsubscribe OFF toggle*/
+.ot-toggle-slider:before {
+    background-color: #808080;
+    border: 1px solid #f2f3f4;
+    order: 1px solid #f2f3f4;
+}
+
+/*change color of Subscribe ON toggle background to BMS Purple*/
+input:checked+.ot-toggle-slider {
+    background-color: #A430B5;
+    border: 1px solid #A430B5;
+}
+/*changes round button of toggle to anti-flash white*/
+input:checked + .ot-toggle-slider:before {
+    background-color: #f2f3f4;
+    color: #f2f3f4;
+    border: 1px solid #A430B5;
+}
