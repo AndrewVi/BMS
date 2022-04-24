@@ -1,4 +1,6 @@
 /* custom CSS for BMS created by EPAM team */
+
+/*undo changes button formatting*/
 .ot-preference-actions-undo {
   background-color: white !important; 
   border: 1px solid #A430B5 !important;
@@ -9,6 +11,7 @@
   display: inline-block !important;
   font-size: 16px !important;
 }
+/*Update Preferences button formatting*/
 .ot-preference-actions-update {
   background-color:  #A430B5 !important; 
 border: none !important;
@@ -25,9 +28,9 @@ display: none;
 .text-small {
 display: none;
 }
-/*.ot-preference-title {
+.ot-preference-title {
 display: none;
-}*/
+}
 
 /*Toggle*/
 label.ot-toggle input[value="false"] + .ot-toggle-slider:after,
@@ -55,4 +58,9 @@ input:checked + .ot-toggle-slider:before {
     background-color: #f2f3f4;
     color: #f2f3f4;
     border: 1px solid #A430B5;
+}
+/*Switch button formatting to BMS Purple*/
+.slds-radio_button-group .slds-radio_button [type=radio]:checked+.slds-radio_button__label {
+background-color: #A430B5;
+border: 1px solid #A430B5;
 }
