@@ -38,3 +38,35 @@ border: none !important;
   font-size: 16px !important;
 }
 
+/*Toggle*/
+label.ot-toggle input[value="false"] + .ot-toggle-slider:after,
+label.ot-toggle input[value="true"] + .ot-toggle-slider:after {
+    position: absolute;
+    font-size: 11px;
+    top: 4px;
+    font-weight: bold;
+}
+ 
+/*change color of Unsubscribe OFF toggle*/
+.ot-toggle-slider:before {
+    background-color: #808080;
+    border: 1px solid #f2f3f4;
+    order: 1px solid #f2f3f4;
+}
+
+/*change color of Subscribe ON toggle background to BMS Purple*/
+input:checked+.ot-toggle-slider {
+    background-color: #A430B5;
+    border: 1px solid #A430B5;
+}
+/*changes round button of toggle to anti-flash white*/
+input:checked + .ot-toggle-slider:before {
+    background-color: #f2f3f4;
+    color: #f2f3f4;
+    border: 1px solid #A430B5;
+}
+/*Switch button formatting to BMS Purple*/
+.slds-radio_button-group .slds-radio_button [type=radio]:checked+.slds-radio_button__label {
+background-color: #A430B5;
+border: 1px solid #A430B5;
+}
