@@ -11,6 +11,7 @@
   display: inline-block !important;
   font-size: 16px !important;
 }
+
 /*Update Preferences button formatting*/
 .ot-preference-actions-update {
   background-color:  #A430B5 !important; 
@@ -22,12 +23,15 @@ border: none !important;
   display: inline-block !important;
   font-size: 16px !important;
 }
+
 .ot-setting__description {
 display: none;
 }
+
 .text-small {
 display: none;
 }
+
 .ot-preference-title {
 display: none;
 }
