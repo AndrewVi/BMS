@@ -1,0 +1,151 @@
+html.baymax {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'
+}
+
+body.baymax {
+    margin: 0;
+    padding: 0;
+    color: hsl(0, 0%, 20%);
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-weight: normal;
+    font-size: .8rem;
+    text-decoration: none;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    line-height: 1.25;
+    overflow: auto
+}
+
+body.baymax.overflow-visible {
+    overflow: visible
+}
+
+body.red {
+    background: hsl(352, 84%, 56%)
+}
+
+.baymax {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'
+}
+
+.baymax * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.baymax .appearance-none {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none
+}
+
+.baymax input:not([type='submit']),
+.baymax textarea {
+    color: #444
+}
+
+.baymax input:not([type='submit']):not(.outline-initial),
+.baymax textarea:not(.outline-initial) {
+    outline: 0
+}
+
+.baymax a {
+    outline: 0
+}
+
+.baymax textarea {
+    resize: none
+}
+
+.baymax input[type='text']:not(.ignore-baymax-defaults),
+.baymax input[type='email']:not(.ignore-baymax-defaults),
+.baymax input[type='password']:not(.ignore-baymax-defaults),
+.baymax input[type='tel']:not(.ignore-baymax-defaults),
+.baymax input[type='url']:not(.ignore-baymax-defaults),
+.baymax input[type='submit']:not(.ignore-baymax-defaults),
+.baymax [contenteditable='plaintext-only']:not(.ignore-baymax-defaults),
+.baymax [contenteditable='true']:not(.ignore-baymax-defaults),
+.baymax button:not(.ignore-baymax-defaults),
+.baymax textarea:not(.ignore-baymax-defaults),
+.baymax .styled-input:not(.ignore-baymax-defaults) {
+    border-width: 2px;
+    border-style: solid;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none
+}
+
+.baymax input[type='text']:not(.ignore-baymax-defaults):not(.border-thick),
+.baymax input[type='email']:not(.ignore-baymax-defaults):not(.border-thick),
+.baymax input[type='password']:not(.ignore-baymax-defaults):not(.border-thick),
+.baymax input[type='tel']:not(.ignore-baymax-defaults):not(.border-thick),
+.baymax input[type='url']:not(.ignore-baymax-defaults):not(.border-thick),
+.baymax input[type='submit']:not(.ignore-baymax-defaults):not(.border-thick),
+.baymax [contenteditable='plaintext-only']:not(.ignore-baymax-defaults):not(.border-thick),
+.baymax [contenteditable='true']:not(.ignore-baymax-defaults):not(.border-thick),
+.baymax button:not(.ignore-baymax-defaults):not(.border-thick),
+.baymax textarea:not(.ignore-baymax-defaults):not(.border-thick),
+.baymax .styled-input:not(.ignore-baymax-defaults):not(.border-thick) {
+    border-color: rgba(0, 0, 0, 0)
+}
+
+.baymax input[type='text']:not(.ignore-baymax-defaults):not(.border-thick):active,
+.baymax input[type='email']:not(.ignore-baymax-defaults):not(.border-thick):active,
+.baymax input[type='password']:not(.ignore-baymax-defaults):not(.border-thick):active,
+.baymax input[type='tel']:not(.ignore-baymax-defaults):not(.border-thick):active,
+.baymax input[type='url']:not(.ignore-baymax-defaults):not(.border-thick):active,
+.baymax input[type='submit']:not(.ignore-baymax-defaults):not(.border-thick):active,
+.baymax [contenteditable='plaintext-only']:not(.ignore-baymax-defaults):not(.border-thick):active,
+.baymax [contenteditable='true']:not(.ignore-baymax-defaults):not(.border-thick):active,
+.baymax button:not(.ignore-baymax-defaults):not(.border-thick):active,
+.baymax textarea:not(.ignore-baymax-defaults):not(.border-thick):active,
+.baymax .styled-input:not(.ignore-baymax-defaults):not(.border-thick):active,
+.baymax input[type='text']:not(.ignore-baymax-defaults):not(.border-thick):focus,
+.baymax input[type='email']:not(.ignore-baymax-defaults):not(.border-thick):focus,
+.baymax input[type='password']:not(.ignore-baymax-defaults):not(.border-thick):focus,
+.baymax input[type='tel']:not(.ignore-baymax-defaults):not(.border-thick):focus,
+.baymax input[type='url']:not(.ignore-baymax-defaults):not(.border-thick):focus,
+.baymax input[type='submit']:not(.ignore-baymax-defaults):not(.border-thick):focus,
+.baymax [contenteditable='plaintext-only']:not(.ignore-baymax-defaults):not(.border-thick):focus,
+.baymax [contenteditable='true']:not(.ignore-baymax-defaults):not(.border-thick):focus,
+.baymax button:not(.ignore-baymax-defaults):not(.border-thick):focus,
+.baymax textarea:not(.ignore-baymax-defaults):not(.border-thick):focus,
+.baymax .styled-input:not(.ignore-baymax-defaults):not(.border-thick):focus {
+    border-color: rgba(0, 0, 0, 0.25)
+}
+
+.baymax [contenteditable] [contenteditable] {
+    border-width: 0
+}
+
+.baymax button.border-transparent:not(.border-thick) {
+    border-color: transparent
+}
+
+.baymax .text-white input,
+.baymax input.text-white,
+.baymax .text-white textarea {
+    color: white
+}
+
+.baymax .text-white input[type='text'],
+.baymax .text-white input[type='email'],
+.baymax .text-white input[type='password'],
+.baymax .text-white input[type='tel'],
+.baymax .text-white input[type='submit'],
+.baymax .text-white [contenteditable='plaintext-only'],
+.baymax .text-white [contenteditable='true'],
+.baymax .text-white button,
+.baymax .text-white textarea,
+.baymax .text-white .styled-input {
+    border-color: rgba(255, 255, 255, 0)
+}
+
+.baymax .text-white input[type='text']:active,
+.baymax .text-white input[type='email']:active,
+.baymax .text-white input[type='password']:active,
+.baymax .text-white input[type='tel']:active,
+.baymax .text-white input[type='submit']:active
+}
