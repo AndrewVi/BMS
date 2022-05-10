@@ -1,4 +1,30 @@
 /* custom CSS for BMS created by EPAM team */
+/*setting height of BMS logo to 80% for helping display on mobile device*/
+.ot-preference-header img {
+  height: 80%;
+  object-fit: scale-down;
+  object-position: 15% 80%;
+}
+}
+}
+/* preference center width*/
+.ot-preference-page.multipage-preferences__page {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+.ot-setting__description {
+  display: none;
+  }
+  
+  .text-small {
+  display: none;
+  }
+  
+  .ot-preference-title {
+  display: none;
+  }
 
 /*undo changes button formatting*/
 .ot-preference-actions-undo {
@@ -22,18 +48,6 @@ border: none !important;
   text-decoration: none !important;
   display: inline-block !important;
   font-size: 16px !important;
-}
-
-.ot-setting__description {
-display: none;
-}
-
-.text-small {
-display: none;
-}
-
-.ot-preference-title {
-display: none;
 }
 
 /*Toggle*/
